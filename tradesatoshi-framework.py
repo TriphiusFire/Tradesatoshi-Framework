@@ -7,12 +7,12 @@ import base64
 import json
 
 #for manually entering your keys, uncomment
-API_KEY = 'fee6f525afab4021a270ac1e810047a3'
-API_SECRET = 'v1WDAp3rkprMSy1bGeEGPBkuzmz1hUIDT8+7dC1y/J0='
+# API_KEY = '<YOURS HERE>'
+# API_SECRET = '<YOURS HERE>'
 
 #prompting user for keys
-# API_KEY = str(raw_input("\nAPI KEY? : "))
-# API_SECRET = str(raw_input("API SECRET? : "))
+API_KEY = str(raw_input("\nAPI KEY? : "))
+API_SECRET = str(raw_input("API SECRET? : "))
 
 ### TradeSatoshi API wrapper
 def api_query( method, req = None ):
